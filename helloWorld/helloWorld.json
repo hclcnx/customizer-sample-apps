@@ -1,0 +1,23 @@
+{
+  "name": "Homepage Customization",
+  "title": "Introductory Customizer App",
+  "description": "Inserts text into IBM Connections Homepage",
+  "services": [
+    "Customizer"
+  ],
+  "extensions": [
+    {
+      "payload": {
+        "include-files": [
+          "helloWorld/helloWorld.user.js"
+        ],
+	      "include-repo":{
+	       "name": "think-attendee-1"
+	     }
+      },
+      "name": "Hello World Extension",
+      "type": "com.ibm.customizer.ui",
+      "path": "homepage"
+    }
+  ]
+}

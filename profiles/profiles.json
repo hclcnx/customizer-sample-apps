@@ -1,0 +1,24 @@
+{
+  "extensions": [
+    {
+      "application": "Profiles Customization Sample",
+      "payload": {
+        "include-files": [
+          "profiles/profilesCustomization.css"
+        ],
+	"include-repo":{
+	  "name": "think-attendee-1"
+	}
+      },
+      "name": "Profiles Customization Extension",
+      "type": "com.ibm.customizer.ui",
+	  "path": "profiles"
+    }
+  ],
+  "name": "Profiles Customization Sample",
+  "description": "Alternative Profiles Page Design & Layout",
+  "title": "Profiles Customization Sample",
+  "services": [
+    "Customizer"
+  ]
+}
