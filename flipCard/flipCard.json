@@ -1,24 +1,29 @@
 {
-  "extensions": [
-	{
-      "application": "Flip Card Sample",
-      "payload": {
-        "include-files": [
-          "flipCard/commListCardsFlipStyle.user.js"
-        ],
-	"include-repo":{
-	  "name": "think-attendee-1"
-	}
-      },
-      "name": "Communities FlipCard Extension",
-      "type": "com.ibm.customizer.ui",
-      "path": "communities"
-    }
-  ],
-  "name": "Flip Card Sample",
-  "description": "Renders Communities as flip cards rather than lists",
-  "services": [
-    "Customizer"
-  ],
-  "title": "FlipCard Customization Sample"
+    "name": "Flip Card Sample",
+    "title": "FlipCard Customization Sample",
+    "description": "Renders Communities as flip cards rather than lists",
+    "services": [
+        "Customizer"
+    ],
+    "state": "enabled",
+    "extensions": [
+        {
+            "name": "Communities FlipCard Extension",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "flipCard/commListCardsFlipStyle.user.js"
+                ],
+                "include-repo": {
+                    "name": "think-attendee-19"
+                },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "communities",
+            "application": "Flip Card Sample",
+            "state": "enabled"
+        }
+    ]
 }
