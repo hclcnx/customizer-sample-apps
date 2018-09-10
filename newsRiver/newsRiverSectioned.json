@@ -1,24 +1,30 @@
 {
-  "extensions": [
-    {
-      "application": "News River Sectioned Sample",
-      "payload": {
-        "include-files": [
-          "newsRiver/newsRiverSectioned.user.js"
-        ],
-	"include-repo":{
-	  "name": "think-attendee-1"
-	}
-      },
-      "name": "News River Sectioned Extension",
-      "type": "com.ibm.customizer.ui",
-      "path": "homepage"
-    }
-  ],
-  "name": "News River Sectioned Sample",
-  "description": "Draws news river in sections surrounded with Pink border",
-  "services": [
-    "Customizer"
-  ],
-  "title": "News River Sectioned Sample"
+    "name": "News River Sectioned Sample",
+    "title": "News River Sectioned Sample",
+    "description": "Draws news river in sections surrounded with Pink border",
+    "services": [
+        "Customizer"
+    ],
+    "state": "disabled",
+    "extensions": [
+        {
+            "id": "85004d52-de7f-4803-986a-592181ce7dce",
+            "name": "News River Sectioned Extension",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "newsRiver/newsRiverSectioned.user.js"
+                ],
+                "include-repo": {
+                    "name": "think-attendee-19"
+                },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "homepage",
+            "application": "News River Sectioned Sample",
+            "state": "disabled"
+        }
+    ]
 }
