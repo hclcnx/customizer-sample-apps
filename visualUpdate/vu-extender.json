@@ -1,0 +1,302 @@
+{
+    "name": "VU1 - Direct CSS",
+    "title": "VU1 - Direct CSS",
+    "description": "Customizer extension to re-theme Connections",
+    "services": [
+        "Customizer"
+    ],
+    "state": "disabled",
+    "extensions": [
+        {
+            "id": "324f6081-d716-443f-92e4-7a03309f588c",
+            "name": "AAGlobal Ex",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/global.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "global",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "81e1877c-bc6b-4aec-9529-5c73ff5d4445",
+            "name": "Account Settings",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/settings.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "manage",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "ff6f3ea4-ab34-48d2-80b0-333b554dcfe3",
+            "name": "Activities",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/activities.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "activities",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "d81fcf81-b972-4ee3-b41d-140c7e985cd6",
+            "name": "Blogs",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/blogs.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "blogs",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "2ae1c598-c55b-41ab-8d5c-27daf049a1b8",
+            "name": "Communities",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/communities.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "communities",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "f004222e-f994-4616-883b-0e83dc5cabea",
+            "name": "Downloads",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/settings.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "downloads",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "207ed090-b8fa-49ca-bb8c-d143ed7e2241",
+            "name": "Files",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/files.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "files",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "afaca5c1-22b7-4e11-923b-fcad2d688c99",
+            "name": "Forums",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/forums.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "forums",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "828c1cc1-c8ba-483c-ad78-afebee03a8e3",
+            "name": "Homepage Old",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/home.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "homepage",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "f5870df8-0dc5-4620-826b-787f0653c66b",
+            "name": "Meetings",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/meetings.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "meetings",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "6051a47e-5084-4fc7-83a7-96d28b8576e3",
+            "name": "Metrics",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/metrics.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "metrics",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "517eb41f-44ae-426f-bd43-e2c3df4bcdcb",
+            "name": "MyContacts",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/profiles.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "mycontacts",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "06d650cd-0fe0-4c06-8fc4-7305b712903e",
+            "name": "Notification Settings",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/settings.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "news",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "088f8ea1-10cb-41c4-816c-ae04cf7e16d2",
+            "name": "Org page",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/profiles.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "contacts",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "92f815ba-8a26-4276-9554-4cc46aa24f96",
+            "name": "Profiles",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/profiles.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "profiles",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "81bbadf6-38de-4bea-b48f-fe71ac345c5b",
+            "name": "Search",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/search.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "search",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "1985463a-b0f9-4a5d-9902-e9c2f3a49b6a",
+            "name": "Wikis",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "css/wikis.css"
+                ],
+                "include-repo": {
+                    "name": "cnx-custom-theme"
+                }
+            },
+            "path": "wikis",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        },
+        {
+            "id": "6babd002-a37a-4094-95fa-4124960a15d0",
+            "name": "Zzz Xtend VU1",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "visualUpdate/navbar-lab.css"
+                ],
+                "include-repo": {
+                    "name": "think-attendee-19"
+                },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "global",
+            "application": "VU1 - Direct CSS",
+            "state": "disabled"
+        }
+    ]
+}
