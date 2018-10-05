@@ -1,0 +1,25 @@
+.onTimeCollapseWidget {
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  background-color: white;
+}
+
+.onTimeCollapseWidget .dijitTitlePaneTitle {
+  padding: 0px 0px 8px 0px;
+  font-family: "Helvetica Neue Bold",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 4px;
+  border-bottom: solid 1px #ccc;
+}
+
+.onTimeCollapseWidget .dijitTitlePaneTitle .dijitTitlePaneTitleFocus {
+  outline: none;
+}
+
+.onTimeCollapseWidget .dijitTitlePaneTitle .dijitArrowNodeInner {
+  float: right;
+  display: block;
+  font-size: 20px;
+  font-family: monospace;
+}
