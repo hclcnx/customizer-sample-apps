@@ -78,22 +78,25 @@ require(["dojo/dom-class", "dijit/TitlePane", "dojo/domReady!"], function(domCla
     var token = data.Token;
     var username = data.UserName;
     if(!!token) {
-      var onBehalfWidget = `
-        <div id="widget-container-banner">
-          <div id="onTimeSection">
-            <div class="onTime Content view">
-              <iframe src='https://demo.ontimesuite.com/ontime/ontimegcclient.nsf/webtoken?OpenPage&token=${token}'
-                class='widgetFrame' width='100%' height='800' frameborder='0' style=''>
-              </iframe>
+      var fetchMembers = getCommunityMembers();
+      fetchMembers.then(function(members) {
+        var onBehalfWidget = `
+          <div id="widget-container-banner">
+            <div id="onTimeSection">
+              <div class="onTime Content view">
+                <iframe src='https://demo.ontimesuite.com/ontime/ontimegcclient.nsf/webtoken?OpenPage&token=${token}&users=${JSON.stringify(members)}'
+                  class='widgetFrame' width='100%' height='800' frameborder='0' style=''>
+                </iframe>
+              </div>
             </div>
-          </div>
-        </div>`;
+          </div>`;
 
-      var placeholderDiv = dojo.byId("placeholder");
-      var titlePane1 = new TitlePane({title:"OnTime Calendar", content: onBehalfWidget});
-      dojo.place(titlePane1.domNode, placeholderDiv, "replace");
-      titlePane1.startup();
-      domClass.add(titlePane1.domNode, "onTimeCollapseWidget");
+        var placeholderDiv = dojo.byId("placeholder");
+        var titlePane1 = new TitlePane({title:"OnTime Calendar", content: onBehalfWidget});
+        dojo.place(titlePane1.domNode, placeholderDiv, "replace");
+        titlePane1.startup();
+        domClass.add(titlePane1.domNode, "onTimeCollapseWidget");
+      });
     }
   };
 
@@ -137,7 +140,7 @@ require(["dojo/dom-class", "dijit/TitlePane", "dojo/domReady!"], function(domCla
 
   var proxyTest = function() {
     require(['dojo/request', 'dojo/topic'], (request, topic) => {
-      request('/files/customizer/proxy?reponame=testrepozc&proxyFile=onTime/onTimeTokenProxy.json',
+      request('/files/customizer/proxy?reponame=think-attendee-19&proxyFile=onTime/onTimeTokenProxy.json',
         {
           headers: {
             'X-Requested-With': null,
@@ -152,7 +155,7 @@ require(["dojo/dom-class", "dijit/TitlePane", "dojo/domReady!"], function(domCla
           handleAs: 'json',
           method: 'POST',
         }).then((tokenResponse) => {
-        request('/files/customizer/proxy?reponame=testrepozc&proxyFile=onTime/onTimeUserProxy.json',
+        request('/files/customizer/proxy?reponame=think-attendee-19&proxyFile=onTime/onTimeUserProxy.json',
           {
             headers: {
               'X-Requested-With': null,
