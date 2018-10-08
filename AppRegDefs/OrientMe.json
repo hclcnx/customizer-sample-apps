@@ -1,0 +1,100 @@
+{
+    "name": "com.ibm.orientme.defaults",
+    "title": "Global Defaults for OrientMe Service",
+    "description": "Global Defaults for OrientMe Service",
+    "services": [
+        "OrientMe"
+    ],
+    "state": "enabled",
+    "extensions": [
+        {
+            "name": "Communities Like icon override",
+            "type": "com.ibm.orientme.tile.action",
+            "payload": {
+                "title": "Like",
+                "icon": "data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA0ODIuMjA3IDQ4Mi4yMDciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ4Mi4yMDcgNDgyLjIwNzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiPgo8cG9seWdvbiBwb2ludHM9IjQ4Mi4yMDcsMTg2Ljk3MyAzMjIuNTA4LDE1My4yNjkgMjQxLjEwNCwxMS44MDMgMTU5LjY5OSwxNTMuMjY5IDAsMTg2Ljk3MyAxMDkuMzg4LDMwOC4xMDggOTIuMDk0LDQ3MC40MDQgICAyNDEuMTA0LDQwMy44MDMgMzkwLjExMyw0NzAuNDA0IDM3Mi44MTgsMzA4LjEwOCAiIGZpbGw9IiM1YTVhNWEiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==",
+                "iconActive": "data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA0ODIuMjA3IDQ4Mi4yMDciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ4Mi4yMDcgNDgyLjIwNzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiPgo8cG9seWdvbiBwb2ludHM9IjQ4Mi4yMDcsMTg2Ljk3MyAzMjIuNTA4LDE1My4yNjkgMjQxLjEwNCwxMS44MDMgMTU5LjY5OSwxNTMuMjY5IDAsMTg2Ljk3MyAxMDkuMzg4LDMwOC4xMDggOTIuMDk0LDQ3MC40MDQgICAyNDEuMTA0LDQwMy44MDMgMzkwLjExMyw0NzAuNDA0IDM3Mi44MTgsMzA4LjEwOCAiIGZpbGw9IiM0MTc4YmUiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==",
+                "style": {
+                    "position": "relative",
+                    "top": "-2px"
+                }
+            },
+            "path": "communities/like",
+            "application": "com.ibm.orientme.defaults",
+            "state": "enabled"
+        },
+        {
+            "name": "Delete Responses Global Entry",
+            "type": "com.ibm.itm.entry.global.default.delete",
+            "path": "responses",
+            "application": "com.ibm.orientme.defaults",
+            "state": "enabled"
+        },
+        {
+            "name": "New google translate action",
+            "type": "com.ibm.orientme.tile.action",
+            "payload": {
+                "title": "This is english",
+                "url": "https://translate.google.co.uk/#auto/{lang}/{content}",
+                "icon": "data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6I0U2RTZFNjsiIGQ9Ik00NzkuMDY4LDk2aC0yMTYuMzJsLTIyLjUxNSw4Ny4xbC04LjA4Myw1Ny4yNDJsNDMuMzI5LDEyMC44NDVsNi45NTcsMTQ2LjYzOWgxOTYuNjMzICBjMTguMTg0LDAsMzIuOTMyLTE0Ljc0OCwzMi45MzItMzIuOTMyVjEyOC45MzJDNTEyLDExMC43NDgsNDk3LjI1Miw5Niw0NzkuMDY4LDk2eiIvPgo8cG9seWdvbiBzdHlsZT0iZmlsbDojM0E1QkJDOyIgcG9pbnRzPSIzNjguNjk2LDQxNiAyODIuNDM1LDUwNy44MjYgMjUxLjg4Miw0MTYgMjY0LjM0OCwzODIuNTIxICIvPgo8cGF0aCBzdHlsZT0iZmlsbDojODA4MDgwOyIgZD0iTTQ2OS41NjUsMjQ0LjE3NHYtMjAuODdoLTc5LjMwNHYtMjkuMjE3aC0yMC44N3YyOS4yMTdIMjk3LjkydjIwLjg3aDExNS44OSAgYy02LjQ0NiwxMy41NzItMTcuNjIxLDM1LjIxNS0zMi45NzgsNTguMDM1Yy0xNC4xMzItMTcuNjQ5LTIzLjA2Mi0yOS45MzEtMjMuMTY4LTMwLjA3N2wtNi4xMjktOC40NDVsLTE2Ljg5MiwxMi4yNTVsNi4xMjcsOC40NDUgIGMwLjQ3NywwLjY1OCwxMC44NzYsMTQuOTYzLDI3LjMzOCwzNS4zYy0xMS4yMjIsMTMuNzQ5LTMxLjgwOCwzNi4xMDYtNDIuNjU1LDQ2Ljk1MmwxNC43NTYsMTQuNzU2ICBjOS4zNjItOS4zNjIsMjguNzc0LTMwLjIxNCw0MS40MjYtNDUuMzI3YzE2LjQ1OSwxOS41NTMsMzIuNTIzLDM3LjE5NCw0Ny44NTQsNTIuNTI2bDcuMzc4LDcuMzc4bDE0Ljc1OC0xNC43NTVsLTcuMzc4LTcuMzc4ICBjLTE1LjgzOS0xNS44MzktMzIuNTE5LTM0LjI2NC00OS42NDctNTQuNzk5YzIyLjEzMy0zMS44MjMsMzYuNDgtNjEuOTU2LDQyLjItNzQuODY2SDQ2OS41NjV6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiM1MThFRjg7IiBkPSJNMzQ5LjMyOSwzNTcuNTIzTDM2OC42OTYsNDE2SDI1MS44ODJIMzIuOTMyQzE0LjczNCw0MTYsMCw0MDEuMjUyLDAsMzgzLjA2OFYzNy4xMDYgIEMwLDE4LjkyMiwxNC43MzQsNC4xNzQsMzIuOTMyLDQuMTc0aDE5OS40MTZMMjYyLjc0OCw5Nmw0NS42MDcsMTM3LjczOUwzNDkuMzI5LDM1Ny41MjN6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiBkPSJNMTQ5LjMwMSwyODcuMzc0Yy00Mi43NywwLTc3LjU2NS0zNC43OTUtNzcuNTY1LTc3LjU2NXMzNC43OTUtNzcuNTY1LDc3LjU2NS03Ny41NjUgIGMyMC43MDQsMCw0MC4xODIsOC4wNjUsNTQuODQ1LDIyLjcxMmwtMTQuNzQ5LDE0Ljc2NmMtMTAuNzIzLTEwLjcxLTI0Ljk2MS0xNi42MDgtNDAuMDk3LTE2LjYwOCAgYy0zMS4yNjMsMC01Ni42OTYsMjUuNDMzLTU2LjY5Niw1Ni42OTZzMjUuNDMzLDU2LjY5Niw1Ni42OTYsNTYuNjk2YzI3LjY5OCwwLDUwLjgyLTE5Ljk2Nyw1NS43MzMtNDYuMjYxaC01NS43MzF2LTIwLjg3aDc3LjU2NSAgdjEwLjQzNUMyMjYuODY2LDI1Mi41NzksMTkyLjA3MSwyODcuMzc0LDE0OS4zMDEsMjg3LjM3NHoiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==",
+                "iconActive": "data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6I0U2RTZFNjsiIGQ9Ik00NzkuMDY4LDk2aC0yMTYuMzJsLTIyLjUxNSw4Ny4xbC04LjA4Myw1Ny4yNDJsNDMuMzI5LDEyMC44NDVsNi45NTcsMTQ2LjYzOWgxOTYuNjMzICBjMTguMTg0LDAsMzIuOTMyLTE0Ljc0OCwzMi45MzItMzIuOTMyVjEyOC45MzJDNTEyLDExMC43NDgsNDk3LjI1Miw5Niw0NzkuMDY4LDk2eiIvPgo8cG9seWdvbiBzdHlsZT0iZmlsbDojM0E1QkJDOyIgcG9pbnRzPSIzNjguNjk2LDQxNiAyODIuNDM1LDUwNy44MjYgMjUxLjg4Miw0MTYgMjY0LjM0OCwzODIuNTIxICIvPgo8cGF0aCBzdHlsZT0iZmlsbDojODA4MDgwOyIgZD0iTTQ2OS41NjUsMjQ0LjE3NHYtMjAuODdoLTc5LjMwNHYtMjkuMjE3aC0yMC44N3YyOS4yMTdIMjk3LjkydjIwLjg3aDExNS44OSAgYy02LjQ0NiwxMy41NzItMTcuNjIxLDM1LjIxNS0zMi45NzgsNTguMDM1Yy0xNC4xMzItMTcuNjQ5LTIzLjA2Mi0yOS45MzEtMjMuMTY4LTMwLjA3N2wtNi4xMjktOC40NDVsLTE2Ljg5MiwxMi4yNTVsNi4xMjcsOC40NDUgIGMwLjQ3NywwLjY1OCwxMC44NzYsMTQuOTYzLDI3LjMzOCwzNS4zYy0xMS4yMjIsMTMuNzQ5LTMxLjgwOCwzNi4xMDYtNDIuNjU1LDQ2Ljk1MmwxNC43NTYsMTQuNzU2ICBjOS4zNjItOS4zNjIsMjguNzc0LTMwLjIxNCw0MS40MjYtNDUuMzI3YzE2LjQ1OSwxOS41NTMsMzIuNTIzLDM3LjE5NCw0Ny44NTQsNTIuNTI2bDcuMzc4LDcuMzc4bDE0Ljc1OC0xNC43NTVsLTcuMzc4LTcuMzc4ICBjLTE1LjgzOS0xNS44MzktMzIuNTE5LTM0LjI2NC00OS42NDctNTQuNzk5YzIyLjEzMy0zMS44MjMsMzYuNDgtNjEuOTU2LDQyLjItNzQuODY2SDQ2OS41NjV6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiM1MThFRjg7IiBkPSJNMzQ5LjMyOSwzNTcuNTIzTDM2OC42OTYsNDE2SDI1MS44ODJIMzIuOTMyQzE0LjczNCw0MTYsMCw0MDEuMjUyLDAsMzgzLjA2OFYzNy4xMDYgIEMwLDE4LjkyMiwxNC43MzQsNC4xNzQsMzIuOTMyLDQuMTc0aDE5OS40MTZMMjYyLjc0OCw5Nmw0NS42MDcsMTM3LjczOUwzNDkuMzI5LDM1Ny41MjN6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiBkPSJNMTQ5LjMwMSwyODcuMzc0Yy00Mi43NywwLTc3LjU2NS0zNC43OTUtNzcuNTY1LTc3LjU2NXMzNC43OTUtNzcuNTY1LDc3LjU2NS03Ny41NjUgIGMyMC43MDQsMCw0MC4xODIsOC4wNjUsNTQuODQ1LDIyLjcxMmwtMTQuNzQ5LDE0Ljc2NmMtMTAuNzIzLTEwLjcxLTI0Ljk2MS0xNi42MDgtNDAuMDk3LTE2LjYwOCAgYy0zMS4yNjMsMC01Ni42OTYsMjUuNDMzLTU2LjY5Niw1Ni42OTZzMjUuNDMzLDU2LjY5Niw1Ni42OTYsNTYuNjk2YzI3LjY5OCwwLDUwLjgyLTE5Ljk2Nyw1NS43MzMtNDYuMjYxaC01NS43MzF2LTIwLjg3aDc3LjU2NSAgdjEwLjQzNUMyMjYuODY2LDI1Mi41NzksMTkyLjA3MSwyODcuMzc0LDE0OS4zMDEsMjg3LjM3NHoiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==",
+                "style": {
+                    "position": "relative",
+                    "top": "-2px"
+                }
+            },
+            "path": "new",
+            "application": "com.ibm.orientme.defaults",
+            "state": "enabled"
+        },
+        {
+            "name": "New twitter tile menu action",
+            "type": "com.ibm.orientme.tile.action",
+            "payload": {
+                "title": "Post to Twitter",
+                "url": "https://twitter.com/intent/tweet?text={content}"
+            },
+            "path": "menu/new",
+            "application": "com.ibm.orientme.defaults",
+            "state": "enabled"
+        },
+        {
+            "name": "Profiles Like icon override",
+            "type": "com.ibm.orientme.tile.action",
+            "payload": {
+                "title": "Like",
+                "icon": "data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTEuOTk5IDUxMS45OTkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMS45OTkgNTExLjk5OTsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik04My41NzgsMTY3LjI1NkgxNi43MTZDNy41MjQsMTY3LjI1NiwwLDE3NC43NDIsMCwxODMuOTcxdjMwMC44ODFjMCw5LjIyNSw3LjQ5MSwxNi43MTMsMTYuNzE2LDE2LjcxM2g2Ni44NjIgICAgYzkuMjI1LDAsMTYuNzE2LTcuNDg5LDE2LjcxNi0xNi43MTNWMTgzLjk3MUMxMDAuMjk0LDE3NC43NDIsOTIuNzY5LDE2Ny4yNTYsODMuNTc4LDE2Ny4yNTZ6IiBmaWxsPSIjNWE1YTVhIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNDcwLjI2NiwxNjcuMjU2Yy0yLjY5Mi0wLjQ1Ni0xMjguNzM5LDAtMTI4LjczOSwwbDE3LjYwNi00OC4wMzJjMTIuMTQ4LTMzLjE3NCw0LjI4My04My44MjctMjkuNDI0LTEwMS44MzUgICAgYy0xMC45NzUtNS44NjQtMjYuMzA5LTguODA5LTM4LjY3Mi01LjY5N2MtNy4wOSwxLjc4NC0xMy4zMjEsNi40NzgtMTcuMDM1LDEyLjc2N2MtNC4yNzEsNy4yMzMtMy44MywxNS42NzYtNS4zNTEsMjMuNjk2ICAgIGMtMy44NTcsMjAuMzQyLTEzLjQ2OSwzOS42ODMtMjguMzU0LDU0LjJjLTI1Ljk1MiwyNS4zMTEtMTA2LjU3MSw5OC4zMzEtMTA2LjU3MSw5OC4zMzF2MjY3LjQ1aDI3OC41OTMgICAgYzM3LjU5MiwwLjAyMiw2Mi4yMjgtNDEuOTU4LDQzLjY4Ny03NC43NDljMjIuMTAxLTE0LjE1NSwyOS42Ni00My45NywxNi43MTYtNjYuODYyYzIyLjEwMi0xNC4xNTUsMjkuNjYtNDMuOTcsMTYuNzE2LTY2Ljg2MiAgICBDNTI3LjU3MiwyMzUuMjQsNTE0LjgyMywxNzQuNzkyLDQ3MC4yNjYsMTY3LjI1NnoiIGZpbGw9IiM1YTVhNWEiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K",
+                "iconActive": "data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTEuOTk5IDUxMS45OTkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMS45OTkgNTExLjk5OTsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik04My41NzgsMTY3LjI1NkgxNi43MTZDNy41MjQsMTY3LjI1NiwwLDE3NC43NDIsMCwxODMuOTcxdjMwMC44ODFjMCw5LjIyNSw3LjQ5MSwxNi43MTMsMTYuNzE2LDE2LjcxM2g2Ni44NjIgICAgYzkuMjI1LDAsMTYuNzE2LTcuNDg5LDE2LjcxNi0xNi43MTNWMTgzLjk3MUMxMDAuMjk0LDE3NC43NDIsOTIuNzY5LDE2Ny4yNTYsODMuNTc4LDE2Ny4yNTZ6IiBmaWxsPSIjNDE3OGJlIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNDcwLjI2NiwxNjcuMjU2Yy0yLjY5Mi0wLjQ1Ni0xMjguNzM5LDAtMTI4LjczOSwwbDE3LjYwNi00OC4wMzJjMTIuMTQ4LTMzLjE3NCw0LjI4My04My44MjctMjkuNDI0LTEwMS44MzUgICAgYy0xMC45NzUtNS44NjQtMjYuMzA5LTguODA5LTM4LjY3Mi01LjY5N2MtNy4wOSwxLjc4NC0xMy4zMjEsNi40NzgtMTcuMDM1LDEyLjc2N2MtNC4yNzEsNy4yMzMtMy44MywxNS42NzYtNS4zNTEsMjMuNjk2ICAgIGMtMy44NTcsMjAuMzQyLTEzLjQ2OSwzOS42ODMtMjguMzU0LDU0LjJjLTI1Ljk1MiwyNS4zMTEtMTA2LjU3MSw5OC4zMzEtMTA2LjU3MSw5OC4zMzF2MjY3LjQ1aDI3OC41OTMgICAgYzM3LjU5MiwwLjAyMiw2Mi4yMjgtNDEuOTU4LDQzLjY4Ny03NC43NDljMjIuMTAxLTE0LjE1NSwyOS42Ni00My45NywxNi43MTYtNjYuODYyYzIyLjEwMi0xNC4xNTUsMjkuNjYtNDMuOTcsMTYuNzE2LTY2Ljg2MiAgICBDNTI3LjU3MiwyMzUuMjQsNTE0LjgyMywxNzQuNzkyLDQ3MC4yNjYsMTY3LjI1NnoiIGZpbGw9IiM0MTc4YmUiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K",
+                "style": {
+                    "position": "relative",
+                    "top": "-2px"
+                }
+            },
+            "path": "profiles/like",
+            "application": "com.ibm.orientme.defaults",
+            "state": "enabled"
+        },
+        {
+            "name": "Social Connections Tab",
+            "type": "com.ibm.orientme.tab",
+            "payload": {
+                "title": "Social Connections",
+                "url": "https://socialconnections.info/"
+            },
+            "path": "new",
+            "application": "com.ibm.orientme.defaults",
+            "state": "enabled"
+        },
+        {
+            "name": "ZBerlin tourism tab",
+            "type": "com.ibm.orientme.tab",
+            "payload": {
+                "title": "Berlin",
+                "url": "https://www.tripadvisor.ie/Tourism-g187323-Berlin-Vacations.html"
+            },
+            "path": "new",
+            "application": "com.ibm.orientme.defaults",
+            "state": "enabled"
+        }
+    ]
+}
