@@ -288,7 +288,7 @@
                     "visualUpdate/navbar-lab.css"
                 ],
                 "include-repo": {
-                    "name": "think-attendee-19"
+                    "name": "customizer-sample-apps"
                 },
                 "cache-headers": {
                     "cache-control": "max-age=0"
