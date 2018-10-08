@@ -42,6 +42,14 @@ deferred.then(
                 }
 ```
 
+#### Filtering Exercise - mix groups and individuals
+```
+                "match": {
+                    "user-group": "EarlyAdopters",
+                    "user-email": "frankadams@yopmail.com"
+                }
+```
+
 #### CSS Exercises: - Periscope 
 https://github.com/ibmcnxdev/cnx-custom-theme
 
