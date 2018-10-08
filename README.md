@@ -5,7 +5,7 @@ This repo contains various Customizer sample apps for demo purposes
 
 #### Hello World Exercise - Use JS `lconn` object for dynamic capabilities
 
-```dojo.query("span.shareSome-title")[0].textContent="Hello " + lconn.homepage.userName + "! ";```
+```dojo.query("span.shareSome-title")[0].textContent="Hello " + lconn.homepage.userName + " ! ";```
 
 #### Hello World Exercise - API sample code
 ```
