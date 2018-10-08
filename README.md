@@ -32,6 +32,15 @@ deferred.then(
                 }
 ```
 
+#### Filtering Exercise - multiple groups
+```
+                "match": {
+                    "user-group": [
+                        "EarlyAdopters",
+                        "Contractors"
+                    ]
+                }
+```
 
 #### CSS Exercises: - Periscope 
 https://github.com/ibmcnxdev/cnx-custom-theme
