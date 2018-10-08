@@ -1,0 +1,31 @@
+{
+    "name": "Enhanced Activity Stream",
+    "title": "Enhanced Activity Stream",
+    "description": "Notifier and infinite scroller for the activity stream.",
+    "services": [
+        "Customizer"
+    ],
+    "state": "enabled",
+    "extensions": [
+        {
+            "name": "Enhanced Activity Stream",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-repo": {
+                    "name": "enhanced-activity-stream"
+                },
+                "include-files": [
+                    "core.js",
+                    "scroller.js",
+                    "notifier.js"
+                ],
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "homepage",
+            "application": "Enhanced Activity Stream",
+            "state": "enabled"
+        }
+    ]
+}
