@@ -1,0 +1,36 @@
+{
+    "name": "My Groups",
+    "title": "Various User Groups in this Org",
+    "description": "Use these as whitelists/blacklists in other extensions",
+    "services": [
+        "Connections"
+    ],
+    "state": "enabled",
+    "extensions": [
+        {
+            "name": "Contractors",
+            "type": "com.ibm.connections.user.group",
+            "payload": {
+                "user-email": [
+                    "frankadams@yopmail.com"
+                ]
+            },
+            "path": "Contractors",
+            "application": "My Groups",
+            "state": "enabled"
+        },
+        {
+            "name": "EarlyAdopters",
+            "type": "com.ibm.connections.user.group",
+            "payload": {
+                "user-email": [
+                    "martindonnelly@yopmail.com",
+                    "samanthadaryn@yopmail.com"
+                ]
+            },
+            "path": "EarlyAdopters",
+            "application": "My Groups",
+            "state": "enabled"
+        }
+    ]
+}
