@@ -1,7 +1,7 @@
 # customizer-sample-apps
-Repo containing various Customizer sample apps for demo purposes
+This repo contains various Customizer sample apps for demo purposes
 
-### Useful links and snippets for lab exercises:
+### Useful links and snippets for demo exercises:
 
 #### Hello World Exercise - Use JS `lconn` object for dynamic capabilities
 
@@ -21,6 +21,17 @@ deferred.then(
     }
 );
 ```
+
+#### Filtering Exercise - conditional match example
+```
+                "match": {
+                    "condition": {
+                        "keyword": "user-name",
+                        "regex": "Samantha"
+                    }
+                }
+```
+
 
 #### CSS Exercises: - Periscope 
 https://github.com/ibmcnxdev/cnx-custom-theme
