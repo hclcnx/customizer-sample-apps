@@ -1,18 +1,13 @@
-# think-attendee-19
-Temporary repository for attendees of the IBM Think Customizer Workshop 2018
-
-Log into IBM Connections Cloud - https://apps.na.collabserv.com
-
-The App Registry URL is:
-    https://apps.na.collabserv.com/appregistry/#/displayApps
+# customizer-sample-apps
+Repo containing various Customizer sample apps for demo purposes
 
 ### Useful links and snippets for lab exercises:
 
-#### Hello World Exercise - Slide #31
+#### Hello World Exercise - Use JS `lconn` object for dynamic capabilities
 
 ```dojo.query("span.shareSome-title")[0].textContent="Hello " + lconn.homepage.userName + "! ";```
 
-#### Hello World Exercise - Slide #34
+#### Hello World Exercise - API sample code
 ```
 var xhrargs = {
     url: "/connections/opensocial/rest/people/@me/@self",
@@ -27,33 +22,11 @@ deferred.then(
 );
 ```
 
-#### CSS Exercises: - Slide #42
-```"profiles/profilesCustomization.css"```
-
-#### CSS Exercises: - Slide #45
+#### CSS Exercises: - Periscope 
 https://github.com/ibmcnxdev/cnx-custom-theme
 
-#### CSS Exercises: - Slide #48 - 
-'think-attendee-x' where 'x' is the unique id index of your repo name  
-```
-{
-    "name": "XTended Visual Update I",
-    "type": "com.ibm.customizer.ui",
-    "payload": {
-        "include-files": [
-             "visualUpdate/navbar-lab.css"
-        ],
-        "include-repo": {
-            "name": "think-attendee-x"
-        }
-    },
-    "path": "global",
-    "application": "Visual Update I for IBM Connections",
-    "state": "enabled"
-}
-````
 
-#### CSS Exercises: - Slide #51
+#### CSS Exercises: Note the IBM Design Color Library
 https://www.ibm.com/design/language/resources/color-library/
 
 ### Online Resources ###
