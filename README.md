@@ -50,6 +50,25 @@ deferred.then(
                 }
 ```
 
+
+#### UI Jitter Remover - smoother integrated rendering of extensions
+```
+        {
+            "name": "!SmoothLoader",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "samples/smoothLoad/smoothLoad.js",
+                    "samples/smoothLoad/smoothLoad.css"
+                ],
+                "include-repo": {
+                    "name": "customizer"
+                }
+            },
+            "path": "homepage",
+        }
+```       
+
 #### CSS Exercises: - Periscope 
 https://github.com/ibmcnxdev/cnx-custom-theme
 
