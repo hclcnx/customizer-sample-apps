@@ -1,0 +1,29 @@
+{
+    "name": "SearchResultsUpdate",
+    "title": "SearchResultsUpdate",
+    "description": "add target=_blank to search results",
+    "services": [
+        "Customizer"
+    ],
+    "state": "disabled",
+    "extensions": [
+        {
+            "name": "10 Search Link Change",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "cnx-search.js"
+                ],
+                "include-repo": {
+                    "name": "cnx-searchresults"
+                },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "search",
+            "application": "SearchResultsUpdate",
+            "state": "disabled"
+        }
+    ]
+}
