@@ -5,17 +5,23 @@
     "services": [
         "Customizer"
     ],
-    "state": "enabled",
+    "state": "disabled",
     "extensions": [
         {
             "name": "Communities FlipCard Extension",
             "type": "com.ibm.customizer.ui",
             "payload": {
+                "match": {
+                    "condition": {
+                        "keyword": "user-email",
+                        "regex": "@"
+                    }
+                },
                 "include-files": [
                     "flipCard/commListCardsFlipStyle.user.js"
                 ],
                 "include-repo": {
-                    "name": "think-attendee-19"
+                    "name": "customizer-sample-apps"
                 },
                 "cache-headers": {
                     "cache-control": "max-age=0"
@@ -23,7 +29,7 @@
             },
             "path": "communities",
             "application": "Flip Card Sample",
-            "state": "enabled"
+            "state": "disabled"
         }
     ]
 }
