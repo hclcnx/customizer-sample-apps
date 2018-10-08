@@ -12,7 +12,7 @@
                     "helloWorld/helloWorld.user.js"
 	     ],
 	      "include-repo":{
-	       "name": "think-attendee-19"
+	       "name": "customizer-sample-apps"
 	     },
 	      "cache-headers": {
                     "cache-control": "max-age=0"
