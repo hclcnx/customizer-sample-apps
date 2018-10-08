@@ -1,0 +1,33 @@
+{
+    "name": "Status Update Tone Analyzer",
+    "title": "Status Update Tone Analyzer",
+    "description": "Uses IBM Watson to analyze dominant tone of new Status Updates in Communities and Home Page",
+    "services": [
+        "Customizer"
+    ],
+    "state": "disabled",
+    "extensions": [
+        {
+            "name": "Status Update Tone Analyzer Extension",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "match": {
+                    "url": "homepage|communities"
+                },
+                "include-repo": {
+                    "name": "status-update-tone-analyzer"
+                },
+                "include-files": [
+                    "StatusUpdateToneAnalyzer/agiliteCore.js",
+                    "StatusUpdateToneAnalyzer/agiliteStatusUpdateToneAnalyzer.js"
+                ],
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "global",
+            "application": "Status Update Tone Analyzer",
+            "state": "disabled"
+        }
+    ]
+}
