@@ -69,6 +69,28 @@ deferred.then(
         }
 ```       
 
+#### Periscope Xtender - use Persicope but apply your own colours etc.
+```
+        {
+            "name": "Xtend VU1",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "visualUpdate/navbar-lab.css"
+                ],
+                "include-repo": {
+                    "name": "customizer-sample-apps"
+                },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "global",
+            "application": "VU1 - Direct CSS",
+            "state": "enabled"
+        }
+```
+
 #### CSS Exercises: - Periscope 
 https://github.com/ibmcnxdev/cnx-custom-theme
 
