@@ -86,8 +86,7 @@ deferred.then(
                 }
             },
             "path": "global",
-            "application": "VU1 - Direct CSS",
-            "state": "enabled"
+            "application": "VU1 - Direct CSS"
         }
 ```
 
