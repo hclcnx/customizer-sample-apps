@@ -18,7 +18,7 @@
                     "name": "bluemix-weather-widget"
                 },
                 "match": {
-                    "url": "communityUuid=d8146ef4-f448-46fb-a2ea-cb51067d164b"
+                    "url": "d8146ef4-f448-46fb-a2ea-cb51067d164b|e98b5799-19a5-4d61-ab75-e3ab44f8d001"
                 }
             },
             "path": "communities",
