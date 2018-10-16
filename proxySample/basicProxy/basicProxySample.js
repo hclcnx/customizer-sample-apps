@@ -1,6 +1,6 @@
 require(["dojo/request", "dojo/topic", "dojo/domReady!"], function(request, topic) {
   var proxyApiCall = function() {
-    request('/files/customizer/proxy?reponame=customizer-samples-apps&proxyFile=proxySample/basicProxy/jsonTestAPI.json',
+    request('/files/customizer/proxy?reponame=customizer-sample-apps&proxyFile=proxySample/basicProxy/jsonTestAPI.json',
       {
         headers: {
           'customizer-proxy': true,
