@@ -28,7 +28,7 @@
                     "proxySample/basicProxy/basicProxySample.js"
                 ],
                 "include-repo": {
-                    "name": "cusotmizer-sample-apps"
+                    "name": "customizer-sample-apps"
                 }
             },
             "path": "homepage"
