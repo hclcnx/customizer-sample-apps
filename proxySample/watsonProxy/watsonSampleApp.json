@@ -1,6 +1,6 @@
 {
-    "name": "BG Proxy Sample",
-    "title": "BG Proxy Sample",
+    "name": "Watson Proxy Sample",
+    "title": "Watson Proxy Sample",
     "description": "Sample proxy app for Customizer",
     "services": [
         "Customizer"
@@ -22,7 +22,7 @@
             }
         },
         {
-            "name": "proxy ui extension",
+            "name": "Watson Proxy UI extension",
             "type": "com.ibm.customizer.ui",
             "payload": {
                 "include-files": [
