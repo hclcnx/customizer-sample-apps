@@ -22,6 +22,7 @@ require(["dojo/request", "dojo/topic", "dojo/domReady!"], function(request, topi
       request(`/files/customizer/proxy?reponame=customizer-sample-apps&proxyFile=proxySample/watsonProxy/watsonToneAnalyzer.json&proxyUrl=https%3A%2F%2Fgateway.watsonplatform.net%2Ftone-analyzer%2Fapi%2Fv3%2Ftone%3Fversion%3D2017-09-21%26text%3D${encodedText}`,
         {
           headers: {
+            'customizer-proxy': true,
             'Content-Type': 'application/json'
           },
           handleAs: 'json',
