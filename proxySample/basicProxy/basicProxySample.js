@@ -3,7 +3,6 @@ require(["dojo/request", "dojo/topic", "dojo/domReady!"], function(request, topi
     request('/files/customizer/proxy?reponame=customizer-sample-apps&proxyFile=proxySample/basicProxy/jsonTestAPI.json',
       {
         headers: {
-          'customizer-proxy': true,
           'Content-Type': 'application/json'
         },
         handleAs: 'json',
