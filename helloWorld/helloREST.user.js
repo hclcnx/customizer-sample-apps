@@ -51,7 +51,7 @@ if(typeof(dojo) != "undefined") {
                 deferred.then(
                   function(results) {
                     console.log('JSON response = ' + JSON.stringify(results, null, 4));
-                    dojo.query("span.shareSome-title")[0].textContent="Hello " + results.entry.displayName + " !";
+                    dojo.query("span.shareSome-title")[0].textContent="Hello " + results.entry.emails[0].value + " !";
                   }
                 );
        	    },
