@@ -115,7 +115,7 @@ if(typeof(dojo) != "undefined") {
                     img=dojo.clone(dojo.query("td.lotusFirstCell img",n)[0] );
                     commAnchor=dojo.query("td a[dojoattachpoint='placeTitleLink']",n)[0];
                     members=dojo.query("td span[dojoattachpoint='numOfMembersPlaceHolder']",n)[0];
-                    updatedBy=dojo.query("td span[dojoattachpoint='personPlaceHolder']",n)[0];
+                    var updatedBy=dojo.query("td span[dojoattachpoint='personPlaceHolder']",n)[0];
                     updatedOn=dojo.query("td span[dojoattachpoint='lastUpdateNode']",n)[0];
                     typeMod=dojo.query("td span[dojoattachpoint='moderatedIconNode']",n)[0];
                     typeRest=dojo.query("td span[dojoattachpoint='restrictedIconNode']",n)[0];
