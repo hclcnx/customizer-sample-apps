@@ -111,6 +111,7 @@ if(typeof(dojo) != "undefined") {
                 // create tiles
                 var tiles = "";
                 dojo.query("#lconn_communities_catalog_widgets_ResultsDisplayWidget_0 table tr").forEach(function(n,i){
+                    console.log("n = " + n + "i = " + i);
                     img=dojo.clone(dojo.query("td.lotusFirstCell img",n)[0] );
                     commAnchor=dojo.query("td a[dojoattachpoint='placeTitleLink']",n)[0];
                     members=dojo.query("td span[dojoattachpoint='numOfMembersPlaceHolder']",n)[0];
