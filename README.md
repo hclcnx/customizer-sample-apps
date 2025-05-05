@@ -91,7 +91,7 @@ deferred.then(
 ```
 
 #### CSS Exercises: - Periscope 
-https://github.com/ibmcnxdev/cnx-custom-theme
+https://github.com/hclcnx/cnx-custom-theme
 
 
 #### CSS Exercises: Note the IBM Design Color Library
@@ -104,11 +104,11 @@ https://www.ibm.com/design/language/resources/color-library/
 * https://github.com/OpenCode4Connections/status-update-tone-analyzer
 * https://github.com/OpenCode4Connections/bluemix-weather-widget
 * https://github.com/OpenCode4Connections/watson-workspace-links
-* https://github.com/ibmcnxdev/customizer/
-* https://github.com/ibmcnxdev/customizer/blob/master/README.md
-* https://github.com/ibmcnxdev/customizer/tree/master/docs
-* https://github.com/ibmcnxdev/customizer/tree/master/samples
-* https://github.com/ibmcnxdev/customizer/blob/master/docs/IBMConnectionsCustomizer.pdf
+* https://github.com/hclcnx/customizer/
+* https://github.com/hclcnx/customizer/blob/master/README.md
+* https://github.com/hclcnx/customizer/tree/master/docs
+* https://github.com/hclcnx/customizer/tree/master/samples
+* https://github.com/hclcnx/customizer/blob/master/docs/HCLConnectionsCustomizer.pdf
 * http://bit.ly/2xmUuj5
 * https://greasyfork.org/en
 * https://tampermonkey.net/
